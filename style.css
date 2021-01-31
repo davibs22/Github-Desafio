@@ -1,0 +1,49 @@
+body {
+    background-color: #05264c;
+}
+.containerRepos {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin: 2em;
+    background-color: #f0f0f0;
+    border-radius: 0.5em;
+}
+.cardR{
+    margin: 0.5em;
+}
+.cardRepos {
+    background-color: #FFF;
+    border-radius: .25rem;
+    padding: 20px;
+    display: flex;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.spanContri{
+    background-color: rgb(0, 204, 61);
+    border-radius: 2px;
+    color: #FFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-height: 22px;
+    margin-left: 15px;
+}
+.spanopen{
+    background-color: rgb(0, 204, 61);
+    border-radius: 2px;
+    color: #FFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-height: 22px;
+    margin-left: 15px;
+}
+.spanclose{
+    background-color: rgb(204, 0, 0);
+    border-radius: 2px;
+    color: #FFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-height: 22px;
+    margin-left: 15px;
+}

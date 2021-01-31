@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+
+        <title>Github</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand">Github Repositories Search</a>
+              <div class="d-flex">
+                <input id="texto" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="btn btn-outline-success" onclick="pesquisar()">Pesquisar</button>
+              </div>
+            </div>
+        </nav>
+        
+        <div id="lista" class="row containerRepos">
+            <!--<div style="display: block;">
+                <div class="cardRepos">
+                    <img src="https://avatars.githubusercontent.com/u/583231?v=4" style="height: 100px; width: 100px; border-radius: 5px;"/>
+                    <div style="margin-left: 20px;">
+                        <h1>SpaceX-API</h1>
+                        <h5>r-spacex</h5>
+                    </div>
+                </div>
+                <div class="card" style="margin-top: 20px;">
+                    <div class="card-header">
+                        Description
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="card" style="margin-top: 20px;">
+                    <div class="card-header">
+                      Contributors
+                    </div>
+                    <div class="card-body">
+                        <div class="media" style="display: flex;">
+                            <img src="https://avatars.githubusercontent.com/u/583231?v=4" style="height: 25px; width: 25px; border-radius: 50%;" class="mr-3">
+                            <div class="media-body">
+                              <h5 class="mt-0" style="margin-left: 10px;">gortazar</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="margin-top: 20px;">
+                    <div class="card-header">
+                      Issues
+                    </div>
+                    <div class="card-body">
+                        <div class="media" style="display: flex;">
+                            <div class="media-body" style="display: flex;">
+                              <svg width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
+                              <h6 class="mt-0" style="margin-left: 10px;">How to install this</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    
+    <script src="Scripts/script.js"></script>
+    </body>
+</html>
